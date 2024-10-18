@@ -1,0 +1,80 @@
+.Bomb {
+    width: 100%;
+    margin-top: 52px;
+}
+.BombStripe {
+    width: 100%;
+    height: 20px;
+    margin-top: -130px;
+    background-color: #293157;
+    z-index: 1000;
+}
+.Board {
+    position: absolute;
+    top: 182px;
+    left: calc(50% - 106px);
+    width: 212px;
+    height: 54px;
+    background-image: url('../../assets//images/crash_bg/board_timer.png');
+    z-index: 100;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 10px rgb(15, 15, 15);
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.BoardGame {
+    position: absolute;
+    top: 182px;
+    left: calc(50% - 106px);
+    width: 212px;
+    height: 54px;
+    background-image: url('../../assets//images/crash_bg/board_multiplier.png');
+    z-index: 100;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 10px rgb(15, 15, 15);
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.BoardFinish {
+    position: absolute;
+    top: 182px;
+    left: calc(50% - 106px);
+    width: 212px;
+    height: 54px;
+    background-image: url('../../assets//images/crash_bg/board_explosion.png');
+    z-index: 100;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 10px rgb(15, 15, 15);
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.Board span, 
+.BoardFinish span, 
+.BoardGame span,
+.BombStripe span {
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.Koef {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.AfterKoef {
+    position: absolute;
+    top: 15px;
+    left: 155px;
+    font-size: 25px;
+}

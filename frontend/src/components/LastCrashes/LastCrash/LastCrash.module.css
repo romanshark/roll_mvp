@@ -1,0 +1,33 @@
+.LastCrash {
+    height: 100%;
+    width: 40px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.LastCrash_very_low {
+    background-color: #ae435c;
+}
+
+.LastCrash_low{
+    background-color: #3e4caf;
+}
+.LastCrash_pre_medium{
+    background-color: #5b3ab0;
+}
+.LastCrash_medium{
+    background-color: #4c7ca8;
+}
+.LastCrash_high{
+    background-color: #e2d735;
+}

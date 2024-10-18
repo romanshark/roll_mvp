@@ -1,0 +1,154 @@
+.BetCard {
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #283055;
+    display: flex;
+    align-items: center;
+    animation-name: betCardVisible;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+@keyframes betCardVisible {
+    0% {
+        background-color: #202744;
+    }
+    100% {
+        background-color: #283055;
+    }
+}
+
+.BetCard:hover {
+   box-shadow: 2px 2px 0px 2px #171b30;
+}
+
+
+.Success {
+    background-image: linear-gradient(270deg,#294a5e 0,#293257 120%);
+}
+.Success i {
+    position: relative;
+    margin-left: 10px;
+    font-size: 50px;
+    color: #2c4a5c;
+    top: 14px;
+    left: 0px;
+    transition: .2s;
+    box-sizing: border-box;
+}
+.Success:hover i{
+    color: #315d65;
+    font-size: 56px;
+    margin-top: -6px;
+}
+
+.Failed {
+    background-image: linear-gradient(270deg,#543856 0,#293257 120%);
+}
+.Failed i {
+    position: relative;
+    font-size: 50px;
+    box-sizing: border-box;
+    transition: .2s;
+    color: #563858;
+    margin-left: 10px;
+    top: -15px;
+}
+.Failed:hover i {
+    color: #673a59;
+    font-size: 56px;
+    margin-top: 6px;
+}
+
+.BetCard img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.BetCount {
+    height: 40px;
+    width: 150px;
+    background-color: #2f385d;
+    border-radius: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BetCount span {
+    color: #ff9b78;
+    font-size: 1.0428571429rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.GameStatusHeader {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.GameStatus {
+    width: 85px;
+    height: 36px;
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: #394268;
+    text-align: center;
+}
+.GameStatus span {
+    color: #b4bcd9;
+    font-size: .8285714286rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 36px;
+}
+
+.TotalWin {
+    color: #70e0ad;
+    background-color: rgba(126,219,177,.102);
+    margin-right: 10px;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.1428571429rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.WinKoef {
+    background-color: #52b387;
+    padding: 0 10px;
+    border-radius: 10px;
+    width: 85px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.0714285714rem;
+    font-weight: 500;
+}
+
+.LoseKoef {
+    background-color: #cb4766;
+    padding: 0 10px;
+    border-radius: 10px;
+    width: 85px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.0714285714rem;
+    font-weight: 500;
+}

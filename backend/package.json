@@ -1,0 +1,43 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ignore-path .gitignore .",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "Buffer": "0.0.0",
+    "body-parser": "^1.19.0",
+    "btoa": "^1.2.1",
+    "buffer": "^5.6.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "execp": "^0.0.1",
+    "express-validator": "^6.6.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "js-sha1": "^0.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "liqpay": "0.0.1",
+    "liqpay-sdk": "^3.2.0",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.25",
+    "nodejs-currency-converter": "^1.0.2",
+    "openid-client": "^3.15.8",
+    "passport": "^0.4.1",
+    "passport-steam": "^1.0.14",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  }
+}
